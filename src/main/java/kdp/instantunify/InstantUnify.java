@@ -72,7 +72,7 @@ public class InstantUnify {
                             "forge:plates\\/.+", "forge:rods\\/.+"), s -> s instanceof String);
             listMode = b.defineEnum("listMode", ListMode.USE_BOTH_LISTS);
             preferredMods = b.comment("Preferred Mods").defineList("preferredMods",
-                    Arrays.asList("minecraft", "thermalfoundation", "immersiveengineering", "embers"),
+                    Arrays.asList("minecraft", "thermalfoundation", "immersiveengineering", "embers", "ineedthemores"),
                     s -> s instanceof String);
             blacklistedMods = b.comment("Blacklisted Mods")
                     .defineList("blacklistMods", Arrays.asList("chisel", "astralsorcery"), s -> s instanceof String);
